@@ -1,0 +1,15 @@
+# jwt configuration
+jwt:
+  signing-key: 'wa1kman'
+  expires-time: 604800
+  issuer: 'wa1kman'
+
+# system configuration
+system:
+  env: 'public'  # Change to "develop" to skip authentication for development mode
+  port: ':9090'
+
+# consul configuration
+consul:
+  host: '127.0.0.1'
+  port: '8500'
